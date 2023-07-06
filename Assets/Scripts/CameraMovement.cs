@@ -9,6 +9,7 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private float maxHeight;
     [SerializeField] private float speed;
     [SerializeField] private float rate;
+
     private float height;
     private CinemachineVirtualCamera virtualCamera;
     void Start()

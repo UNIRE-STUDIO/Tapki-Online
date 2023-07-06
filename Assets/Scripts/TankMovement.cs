@@ -99,4 +99,14 @@ public class TankMovement : MonoBehaviour
     {
         m_Rigidbody.angularVelocity = new Vector3(0f, m_TurnInputValue * m_TurnSpeed * Time.deltaTime, 0f);
     }
+
+    public void MoveToPosition(Vector3 newPos)
+    {
+
+    }
+
+    public void TurnToAngle()
+    {
+
+    }
 }
